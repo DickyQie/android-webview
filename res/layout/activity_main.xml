@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#E4E4E4"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="账户：18748819480"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:background="#E4E4E4"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="密码：123456"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+         >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:text="登   录"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="我的界面"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
