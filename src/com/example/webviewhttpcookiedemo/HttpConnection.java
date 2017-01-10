@@ -12,6 +12,7 @@ import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
+import android.util.Log;
 
 @SuppressLint("NewApi")
 @TargetApi(Build.VERSION_CODES.GINGERBREAD)
@@ -52,7 +53,8 @@ public class HttpConnection {
                         s += ";" + cookie;
                     }
                 }
-                if (s.length() > 0) {
+                Log.i("Cookie", s);
+               if (s.length() > 0) {
                     CookieUtil.setParam(context, s);
                 }
             }
@@ -63,7 +65,5 @@ public class HttpConnection {
         }
         return result;
     }
-
-  
 }
 

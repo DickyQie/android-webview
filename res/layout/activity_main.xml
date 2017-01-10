@@ -12,7 +12,7 @@
         android:background="#E4E4E4"
         android:gravity="center_vertical"
         android:paddingLeft="15dp"
-        android:text="账户：18748819480"
+        android:text="账户：DickyQie"
         android:textColor="@android:color/black"
         android:textStyle="bold" />
 
@@ -24,7 +24,7 @@
         android:background="#E4E4E4"
         android:gravity="center_vertical"
         android:paddingLeft="15dp"
-        android:text="密码：123456"
+        android:text="密码：*******"
         android:textColor="@android:color/black"
         android:textStyle="bold" />
 
