@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+      <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+      <meta http-equiv="description" content="this is my page">
+     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script type="text/javascript">  
+
+		/**
+			结算方法
+		*/
+	   function showToast(toast) { 
+			var money=toast*3;
+			javascript:obj.showToast(money);
+        }
+		  function funFromjs(){
+    	document.getElementById("helloweb").innerHTML="div显示数据,无参数";
+        }
+	    function funJs(msg){
+    	    document.getElementById("hello2").innerHTML=msg;
+         }
+		function sum(i,m){ 
+           var result = i*m; 
+           document.getElementById("h").innerHTML= "Android调用JS方法且有返回值--计算结果="+result; 
+           javascript:obj.onSum(result) 
+        } 
+		function sumn(i,m){ 
+           var result = i*m; 
+           document.getElementById("hh").innerHTML= "Android调用JS方法且有返回值--计算结果="+result; 
+           return result;
+        } 
+	
+    </script> 
+
+    <style type="text/css">
+    	input{
+    		width: 100px;
+    		height: 100px;
+    		margin: 20px;
+    	}
+		
+    </style>
+
+</head>
+
+<body>
+		
+	 <input type="button" value="结算" onclick="showToast('12')">
+	   <div id="helloweb"> 
+
+	  </div>
+	  <div id="hello2"> 
+
+	  </div>
+	  <div id="h"> 
+
+	  </div>
+	   <div id="hh"> 
+
+	  </div>
+	 
+</body>
+</html>
